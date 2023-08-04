@@ -166,7 +166,7 @@ export default function Skills() {
                         <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
                         <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
                     </div>
-                    {/* <h3 className='col-start-1 col-end-[span_2] text-xl font-bold text-stone-200'>Security</h3>
+                    <h3 className='col-start-1 col-end-[span_2] text-xl font-bold text-stone-200'>Security</h3>
                     <div className='grid grid-flow-col justify-start'>
                         <span className=" whitespace-nowrap text-sm font-medium text-stone-400">React</span>
                     </div>
@@ -226,7 +226,7 @@ export default function Skills() {
                         <span className="flex h-1/3 flex-grow rounded-md bg-green-700"></span>
                         <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
                         <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
-                    </div> */}
+                    </div>
                 </div>
                 {/* Desktop Version */}
                 <div className='grid-cols-[max-content_1fr] place-content-start gap-2 hidden sm:grid'>
@@ -385,7 +385,7 @@ export default function Skills() {
                         <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
                         <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
                     </div>
-                    {/* <h3 className='col-start-1 col-end-[span_2] text-xl font-bold text-stone-200'>Security</h3>
+                    <h3 className='col-start-1 col-end-[span_2] text-xl font-bold text-stone-200'>Security</h3>
                     <div className="grid grid-flow-col justify-start">
                     <span className=" whitespace-nowrap text-sm font-medium text-stone-400">React</span>
                     </div>
@@ -445,7 +445,7 @@ export default function Skills() {
                     <span className="flex h-1/3 flex-grow rounded-md bg-green-700"></span>
                     <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
                     <span className="flex h-1/3 flex-grow rounded-md bg-stone-700"></span>
-                    </div> */}
+                    </div>
                 </div>
                 </div>
             </section>
