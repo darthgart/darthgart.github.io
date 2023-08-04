@@ -23,7 +23,6 @@ export default function Home() {
           <About/>
           <Skills/>
           <Resume/>
-          {/* <Contact/> */}
         </div>
         <Footer/>
       </div>
