@@ -41,7 +41,7 @@ export default function Resume() {
                                     <h2 className='font-bold text-stone-200'>Manager CRM (Walcu)</h2>
                                     <p className='text-stone-400'>
                                         Durante mi periodo de estudio en DAM accedí a la beca FP DUAL, realizaé mis prácticas como Desarrollador en Grup Oliva Motor, holding empresarial
-                                        dedicado principalmente al sector de la automoción, donde tuve la suerte realizar la formación y optar al puesto de Manager de CRM.
+                                        dedicado principalmente al sector de la automoción, donde tuve la suerte realizar la formación en CRM y optar al puesto de Manager de WALCU.
                                     </p>
                                     <ul>
                                         <li className=" text-stone-400"><strong className="text-stone-200">Frontend:</strong> React/Typescript + Next.js, TailwindCss

@@ -15,15 +15,12 @@ export default function About() {
                     <div className='relative flex grow lg:basis-5/6'>
                     <div className='flex w-full flex-col items-start gap-y-6 overflow-visible rounded-2xl bg-stone-800 p-4 pt-12 shadow-xl shadow-black/30 md:p-8 md:pt-12 lg:pr-28 lg:pt-8'>
                         <p className='prose prose-sm whitespace-pre-line text-stone-400 sm:prose-base'>
-                        Soy un entusiasta de la tecnología desde que tengo uso de razón. Como un eterno curioso, disfruto explorando nuevas tendencias, dispositivos y aplicaciones, 
-                        y siempre estoy emocionado por aprender y compartir todo lo relacionado con el mundo digital y mi carrera profesional. 
+                        Soy un entusiasta de la tecnología desde que tengo uso de razón. Como un eterno curioso, disfruto explorando nuevas tendencias, dispositivos y aplicaciones, y siempre
+                        estoy emocionado por aprender y compartir todo lo relacionado con el mundo digital y mi carrera profesional. 
                         <br/><br/>
-                        Pero mi interés no se limita únicamente a la tecnología, las artes también juegan un papel importante en mi vida. Me encanta explorar 
-                        diversas formas de expresión artística, ya sea a través de la pintura, la música o cualquier otra manifestación creativa que me 
-                        permita dar rienda suelta a mi imaginación, como ahora realizar tatuajes.
-                        <br/><br/>
-                        Además, soy un apasionado de las artes marciales, llevo practicando Taekwondo desde los 4 años. Actualmente soy Cinturón negro 2º Dan por la Real 
-                        Federación Española de Taewkondo, una disciplina que no solo me ha brindado condecoraciones, habilidades físicas y defensa personal, sino también 
+                        Pero mi interés no se limita únicamente a la tecnología, las artes también juegan un papel importante en mi vida. Me encanta explorar diversas formas de expresión 
+                        artística, ya sea a través de la pintura, la música o los tatuajes. Además, soy un apasionado de las artes marciales, llevo practicando Taekwondo desde los 4 años. 
+                        Actualmente soy Cinturón negro 2º Dan por la RFE de Taewkondo, una disciplina que no solo me ha brindado condecoraciones y habilidades físicas y mentales, sino también 
                         valiosas lecciones como son la perseverancia, el respeto y el autocontrol, estos valores son mi filosofía de vida.
                         <br/><br/>
                         Por otro lado, mi espíritu aventurero me lleva a disfrutar de los deportes de montaña y mar. Salir de ruta con mi MTB por la montaña , disfutar 
@@ -49,7 +46,7 @@ export default function About() {
                         <li className='col-span-1 flex items-start gap-x-2'>
                             <i className="fa-regular fa-heart"></i>
                             <span className='text-xs font-bold text-white sm:text-sm'>Intereses: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>Tattoo, TKD, MTB, Snow</span>
+                            <span className='text-xs text-gray-300 sm:text-sm'>Art, TKD, MTB, Snow</span>
                         </li>
                         <li className='col-span-1 flex items-start gap-x-2'>
                             <i className="fa-solid fa-graduation-cap"></i>
@@ -59,7 +56,7 @@ export default function About() {
                         <li className='col-span-1 flex items-start gap-x-2'>
                             <i className="fa-regular fa-building"></i>
                             <span className='text-xs font-bold text-white sm:text-sm'>Trabajo: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>Grup Oliva Motor</span>
+                            <span className='text-xs text-gray-300 sm:text-sm'>CRM Manager - GOM</span>
                         </li>
                         </ul>
                     </div>
