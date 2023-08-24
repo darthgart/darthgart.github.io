@@ -14,50 +14,49 @@ export default function About() {
                 <div className='flex flex-col-reverse lg:flex-row'>
                     <div className='relative flex grow lg:basis-5/6'>
                     <div className='flex w-full flex-col items-start gap-y-6 overflow-visible rounded-2xl bg-stone-800 p-4 pt-12 shadow-xl shadow-black/30 md:p-8 md:pt-12 lg:pr-28 lg:pt-8'>
-                        <p className='prose prose-sm whitespace-pre-line text-stone-400 sm:prose-base'>
-                        Soy un entusiasta de la tecnología desde que tengo uso de razón. Como un eterno curioso, disfruto explorando nuevas tendencias, dispositivos y aplicaciones, y siempre
-                        estoy emocionado por aprender y compartir todo lo relacionado con el mundo digital y mi carrera profesional. 
-                        <br/><br/>
-                        Pero mi interés no se limita únicamente a la tecnología, las artes también juegan un papel importante en mi vida. Me encanta explorar diversas formas de expresión 
-                        artística, ya sea a través de la pintura, la música o los tatuajes. Además, soy un apasionado de las artes marciales, llevo practicando Taekwondo desde los 4 años. 
-                        Actualmente soy Cinturón negro 2º Dan por la RFE de Taewkondo, una disciplina que no solo me ha brindado condecoraciones y habilidades físicas y mentales, sino también 
-                        valiosas lecciones como son la perseverancia, el respeto y el autocontrol, estos valores son mi filosofía de vida.
-                        <br/><br/>
-                        Por otro lado, mi espíritu aventurero me lleva a disfrutar de los deportes de montaña y mar. Salir de ruta con mi MTB por la montaña , disfutar 
-                        de un buen día de nieve bajando por una ladera en plena temporada de ski o simplemente estar en contacto con la naturaleza flotando sobre un paddle
-                        surf es una fuente de inspiración y bienestar para mí.
+                        <p className='prose prose-sm whitespace-pre-line text-stone-400 sm:prose-base text-justify'>
+                            Soy un entusiasta de la tecnología desde que tengo uso de razón. Como un eterno curioso, disfruto explorando nuevas tendencias, dispositivos y aplicaciones, y siempre estoy
+                            emocionado por aprender y compartir todo lo relacionado con el mundo digital y mi carrera profesional.
+                            <br/><br/>
+                            Pero mi interés no se limita únicamente a la tecnología, las artes también juegan un papel importante en mi vida. Me encanta explorar diversas formas de expresión artística,
+                            ya sea a través de la pintura, la música o los tatuajes. Además, soy un apasionado de las artes marciales, llevo practicando Taekwondo desde los 4 años. Actualmente soy
+                            Cinturón negro 2º Dan por la RFE de Taewkondo, una disciplina que no solo me ha brindado condecoraciones y habilidades físicas y mentales, sino también valiosas lecciones como
+                            son la perseverancia, el respeto y el autocontrol, estos valores son mi filosofía de vida.
+                            <br/><br/>
+                            Por otro lado, mi espíritu aventurero me lleva a disfrutar de los deportes de montaña y mar. Salir de ruta con mi MTB por la montaña , disfutar de un buen día de nieve bajando
+                            por una ladera en plena temporada de ski o simplemente estar en contacto con la naturaleza flotando sobre un paddle surf es una fuente de inspiración y bienestar para mí.
                         </p>
-                        <ul className='grid grid-cols-1 gap-4 lg:grid-cols-2'>
-                        <li className='col-span-1 flex items-start gap-x-2'>
-                            <i className="fa-regular fa-map"></i>
-                            <span className='text-xs font-bold text-white sm:text-sm'>Ubicación: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>Tarragona, Cataluña</span>
-                        </li>
-                        <li className='col-span-1 flex items-start gap-x-2'>
-                            <i className="fa-regular fa-calendar"></i>
-                            <span className='text-xs font-bold text-white sm:text-sm'>Edad: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>24</span>
-                        </li>
-                        <li className='col-span-1 flex items-start gap-x-2'>
-                            <i className="fa-regular fa-flag"></i>
-                            <span className='text-xs font-bold text-white sm:text-sm'>Nacionalidad: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>Española</span>
-                        </li>
-                        <li className='col-span-1 flex items-start gap-x-2'>
-                            <i className="fa-regular fa-heart"></i>
-                            <span className='text-xs font-bold text-white sm:text-sm'>Intereses: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>Art, TKD, MTB, Snow</span>
-                        </li>
-                        <li className='col-span-1 flex items-start gap-x-2'>
-                            <i className="fa-solid fa-graduation-cap"></i>
-                            <span className='text-xs font-bold text-white sm:text-sm'>Estudios: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>DAM - Vidal i Barraquer</span>
-                        </li>
-                        <li className='col-span-1 flex items-start gap-x-2'>
-                            <i className="fa-regular fa-building"></i>
-                            <span className='text-xs font-bold text-white sm:text-sm'>Trabajo: </span>
-                            <span className='text-xs text-gray-300 sm:text-sm'>CRM Manager - GOM</span>
-                        </li>
+                        <ul className='grid grid-cols-1 gap-4 justify-start lg:grid-cols-2'>
+                            <li className='col-span-1 flex items-start gap-x-2'>
+                                <i className="fa-solid fa-earth-americas"></i>
+                                <span className='text-xs font-bold text-white sm:text-sm'>Ubicación: </span>
+                                <span className='text-xs text-gray-300 sm:text-sm'>Tarragona, Cataluña</span>
+                            </li>
+                            <li className='col-span-1 flex items-start gap-x-2'>
+                                <i className="fa-regular fa-calendar"></i>
+                                <span className='text-xs font-bold text-white sm:text-sm'>Edad: </span>
+                                <span className='text-xs text-gray-300 sm:text-sm'>{new Date().getFullYear() - 1999}</span>
+                            </li>
+                            <li className='col-span-1 flex items-start gap-x-2'>
+                                <i className="fa-regular fa-flag"></i>
+                                <span className='text-xs font-bold text-white sm:text-sm'>Nacionalidad: </span>
+                                <span className='text-xs text-gray-300 sm:text-sm'>Española</span>
+                            </li>
+                            <li className='col-span-1 flex items-start gap-x-2'>
+                                <i className="fa-regular fa-thumbs-up"></i>
+                                <span className='text-xs font-bold text-white sm:text-sm'>Intereses: </span>
+                                <span className='text-xs text-gray-300 sm:text-sm'>Art, TKD, MTB, Snow</span>
+                            </li>
+                            <li className='col-span-1 flex items-start gap-x-2'>
+                                <i className="fa-solid fa-book"></i>
+                                <span className='text-xs font-bold text-white sm:text-sm'>Estudios: </span>
+                                <span className='text-xs text-gray-300 sm:text-sm'>DAM - Vidal i Barraquer</span>
+                            </li>
+                            <li className='col-span-1 flex items-start gap-x-2'>
+                                <i className="fa-solid fa-briefcase"></i>
+                                <span className='text-xs font-bold text-white sm:text-sm'>Trabajo: </span>
+                                <span className='text-xs text-gray-300 sm:text-sm'>CRM Manager</span>
+                            </li>
                         </ul>
                     </div>
                     </div>
