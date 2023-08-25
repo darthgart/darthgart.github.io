@@ -1,5 +1,4 @@
 import { Inter } from 'next/font/google';
-import Typewriter from 'react-ts-typewriter';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,7 +25,7 @@ export default function Hero() {
                         &lt;
                         <span className='font-bold text-green-600'>code</span>
                         &gt;
-                        <span className='font-medium text-stone-400'><Typewriter text='Hello world!'/></span>
+                        <span className='font-medium text-stone-400'>Welcome to my webpage!</span>
                         &lt;/
                         <span className='font-bold text-green-600'>code</span>
                         &gt;
