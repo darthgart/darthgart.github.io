@@ -13,7 +13,7 @@ export default function Document() {
         content="This is my personal website where I share my experiences and knowledge about my interests in the world of programming"
       />
       <script src="https://kit.fontawesome.com/08fa0f78f5.js" crossOrigin="anonymous"></script>
-      <body>
+      <body className='bg-emerald-950'>
         <Main />
         <NextScript />
       </body>
