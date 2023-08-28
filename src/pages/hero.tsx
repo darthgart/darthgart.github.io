@@ -49,7 +49,7 @@ export default function Hero() {
                         </div>
                         <p className='prose mb-4 text-stone-400'>
                         Soy Técnico Superior en <strong className='text-stone-300'>Desarrollo de Aplicaciones Multiplataforma (DAM)</strong>
-                        , actualmente trabajo como <strong className='text-stone-300'>Manager de CRM</strong> en una importante empresa
+                        , actualmente estoy aprendiendo mi oficio como <strong className='text-stone-300'>desarrollador</strong> en una importante empresa
                         automobilística en Tarragona, España.
                         </p>
                         <p className='prose mb-4 text-stone-400'>
